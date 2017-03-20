@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+	
+	void Gyro() {
+		x = GetAngle()
+    switch(phasedetector){
+    
+    case 0:
+      return 0;
+      break;
+      
+    case 1:
+      if x
+      
+      //THIS IS A WIP. PLEASE DO NOT EDIT UNTIL DRAFT IS FINISHED
+        
+        
+    
