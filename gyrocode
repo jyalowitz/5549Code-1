@@ -6,14 +6,21 @@ using namespace std;
 		x = GetAngle()
     switch(phasedetector){
     
-    case 0:
-      return 0;
-      break;
+    	case 0:
+    		if (area == 2){
+    			return 0
+			}
+  		if (area != 2){
+    			if (x>0) {
+				myRobot.tankDrive(leftBack)
+	    		}
+			if (x<0) {
+	   			myRobot.tankDrive(rightBack)
+	   		}
+	    
+    	case 1:
+     		return 0
       
-    case 1:
-      if x
-      
-      //THIS IS A WIP. PLEASE DO NOT EDIT UNTIL DRAFT IS FINISHED
-        
+//This is the draft for the gyro code.        
         
     
