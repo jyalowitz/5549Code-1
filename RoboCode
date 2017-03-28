@@ -124,6 +124,7 @@ private:
 		//SET THIS VARIABLE BEFORE RUN
 		int areaVar = 4;
 		//**^^^^^^^^**//
+		//http://i1.kym-cdn.com/photos/images/newsfeed/000/744/952/c65.jpg//
 		if (areaVar == 1) {
 			areaOne();
 		}
