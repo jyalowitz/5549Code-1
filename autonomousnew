@@ -3,5 +3,41 @@ void AutonomousPeriodic () override {
   
   int areaNumber = x
   
+  if (areaNumber == 1) {
+    areaOne();
+    }
+  if (areaNumber == 2) {
+    areaTwo();
+    }
+  if (areaNumber == 3) {
+    areaThree();
+    }
+  
+  void areaOne(){
+    /*Work on last. Important numbers are that the robot has to turn 100* to the left once it gets in position. In order to shoot high boiler,
+    the shooter needs to shoot balls about 9.019 feet (exact value is 9.01858575388 feet). */
+    }
+  void areaTwo(){
+    autoTimer.Reset();
+		autoTimer.Start();
+		  //forwards until time in seconds
+		myRobot.TankDrive(0.5, 0.5 );
+		if ( autoTimer.Get() >= 1.0 ) {
+			myRobot.StopMotor();
+			autoTimer.Stop();
+			autoTimer.Reset();
+      }
+    }
+  void areaThree(){
+    autoTimer.Reset();
+    autoTimer.Start();
+    myRobot.TankDrive(0.5, 0.5 );
+    if (autoTimer.Get() >= 2.0) {
+      myRobot.StopMotor();
+      autoTimer.Stop();
+      autoTimer.Reset();
+      }
+    }
+    
   
   
