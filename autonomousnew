@@ -15,7 +15,8 @@ void AutonomousPeriodic () override {
   
   void areaOne(){
     /*Work on last. Important numbers are that the robot has to turn 100* to the left once it gets in position. In order to shoot high boiler,
-    the shooter needs to shoot balls about 9.019 feet (exact value is 9.01858575388 feet). */
+    the shooter needs to shoot balls about 9.019 feet (exact value is 9.01858575388 feet). To shoot low boiler, it needs to shoot about
+    4.27 feet (4.27200187266 ft).*/
     }
   void areaTwo(){
     autoTimer.Reset();
